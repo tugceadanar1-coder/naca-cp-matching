@@ -1,5 +1,22 @@
 # Least-Squares Based Aerodynamic Pressure Curve Matching
 
+# Least-Squares Based Aerodynamic Pressure Curve Matching
+
+Explainable Cp-curve retrieval and mapping system for NACA 0012 pressure coefficient data.
+
+This project compares NACA 0012 pressure coefficient curves using least-squares error.  
+For each training Cp curve, the program searches through 50 reference Cp curves and selects the closest match based on the smallest SSE value.
+
+## Project Highlights
+
+- Compares Cp curves using SSE, RMSE, and maximum Cp deviation
+- Ranks the Top-3 closest reference curves
+- Maps test Cp points using a transparent deviation threshold
+- Stores results in CSV files and SQLite
+- Visualizes matches with interactive Bokeh plots
+- Uses object-oriented Python structure with inheritance
+- Includes unit tests for the mathematical core
+
 ## Project overview
 
 This project compares NACA 0012 pressure coefficient (`Cp`) curves using a
