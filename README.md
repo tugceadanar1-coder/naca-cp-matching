@@ -207,6 +207,14 @@ archive/create_sample_data_archived.py
 It is kept only as historical test material and is not part of the current
 real experimental data workflow.
 
+## Example Output
+
+| Output | Description |
+|--------|-------------|
+| Interactive Bokeh plot | Visual comparison of the training curve, Top-3 reference curves, and mapped test points |
+| SQLite database | Stores all matching results |
+| CSV reports | Error audit, best matches, and mapping results |
+
 ## License
 
 This project is released under the MIT License.
