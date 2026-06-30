@@ -175,6 +175,12 @@ python -m unittest discover tests
 
 ## Results
 
+The workflow generates interactive Bokeh visualizations showing the training curve, the three closest reference curves, and mapped test points.
+
+<p align="center">
+  <img src="figures/figure_4.png" width="500" alt="Example Bokeh output">
+</p>
+
 The workflow writes:
 
 - `results/error_audit.csv`
