@@ -2,6 +2,10 @@
 
 Explainable Cp-curve retrieval and mapping system for NACA 0012 pressure coefficient data.
 
+<p align="center">
+  <img src="figures/figure_1.png" width="450">
+</p>
+
 This project compares NACA 0012 pressure coefficient curves using least-squares error.  
 For each training Cp curve, the program searches through 50 reference Cp curves and selects the closest match based on the smallest SSE value.
 
