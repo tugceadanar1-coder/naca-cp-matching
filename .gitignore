@@ -1,0 +1,11 @@
+.student_packages/
+.verify_packages/
+.bokeh_runtime/
+.packages/
+.pytest_cache/
+__pycache__/
+*.pyc
+results/*.csv
+results/*.sqlite
+results/*.html
+!results/.gitkeep

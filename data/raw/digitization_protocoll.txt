@@ -1,0 +1,20 @@
+Digitization Protocol
+
+Software
+- WebPlotDigitizer (Web)
+
+Source
+- Gregory & O'Reilly (1970), Figure 4
+- NACA 0012
+- Session III
+
+Axes
+- XY (linear)
+
+Digitization
+- Manual point selection
+- One CSV file for each angle of attack
+- Upper-surface Cp curves only
+
+Export
+- CSV format
