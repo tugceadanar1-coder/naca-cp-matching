@@ -1,7 +1,5 @@
 # Least-Squares Based Aerodynamic Pressure Curve Matching
 
-# Least-Squares Based Aerodynamic Pressure Curve Matching
-
 Explainable Cp-curve retrieval and mapping system for NACA 0012 pressure coefficient data.
 
 This project compares NACA 0012 pressure coefficient curves using least-squares error.  
@@ -17,7 +15,7 @@ For each training Cp curve, the program searches through 50 reference Cp curves 
 - Uses object-oriented Python structure with inheritance
 - Includes unit tests for the mathematical core
 
-## Project overview
+## Overview
 
 This project compares NACA 0012 pressure coefficient (`Cp`) curves using a
 least-squares matching method. The goal is to identify which reference Cp curve
@@ -198,3 +196,7 @@ archive/create_sample_data_archived.py
 
 It is kept only as historical test material and is not part of the current
 real experimental data workflow.
+
+## License
+
+This project is released under the MIT License.
