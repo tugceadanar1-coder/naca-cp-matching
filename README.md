@@ -3,7 +3,7 @@
 Explainable Cp-curve retrieval and mapping system for NACA 0012 pressure coefficient data.
 
 <p align="center">
-  <img src="figures/figure_1.png" width="600">
+  <img src="figures/figure_1.png" width="500">
 </p>
 
 This project compares NACA 0012 pressure coefficient curves using least-squares error.  
